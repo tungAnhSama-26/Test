@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: #ffe6e6;
+    font-family:  'Comic Sans MS', cursive;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #ff99cc;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes pop {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+  }
